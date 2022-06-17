@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POM Project Suite]">
+  <test thread-count="5" name="Rediff Test(failed)">
+    <classes>
+      <class name="com.projectname_qa.testcases.LogoutPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickOnRediffHomeLinkTest"/>
+          <include name="logoutPageCurrentUrlTest"/>
+          <include name="setUp"/>
+          <include name="logoutPageTitleTest"/>
+        </methods>
+      </class> <!-- com.projectname_qa.testcases.LogoutPageTest -->
+      <class name="com.projectname_qa.testcases.InboxPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="logoutLinkTest"/>
+          <include name="tearDown"/>
+          <include name="inboxPageCurrentUrlTest"/>
+        </methods>
+      </class> <!-- com.projectname_qa.testcases.InboxPageTest -->
+      <class name="com.projectname_qa.testcases.LandingPageTest">
+        <methods>
+          <include name="landingPageRediffMailLinkTest"/>
+          <include name="tearDown"/>
+          <include name="landingPageTitleTest"/>
+          <include name="landingPageBusinessLinkTest"/>
+          <include name="landingPageShoppingLinkTest"/>
+          <include name="landingPageVideosLinkTest"/>
+          <include name="clickOnSignInLinkTest"/>
+          <include name="setUp"/>
+          <include name="landingPageCurrentUrlTest"/>
+          <include name="landingPageMoneyLinkTest"/>
+        </methods>
+      </class> <!-- com.projectname_qa.testcases.LandingPageTest -->
+    </classes>
+  </test> <!-- Rediff Test(failed) -->
+</suite> <!-- Failed suite [POM Project Suite] -->
